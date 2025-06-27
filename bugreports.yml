@@ -11,6 +11,32 @@
     Присутствует кнопка "Предыдущая" на первой странице с товарами, которая никуда не ведет
 
 - summary: |
+    Описание и фотография товара "Marni Red & Black Suit" не соответсвуют
+  environment: |
+    Google Chrome Версия: 137.0.7151.104 (Официальная сборка) (64 бит)
+  steps-to-reproduce: |
+    1. Открыть страницу магазина https://hexlet-products-store.vercel.app/
+    2. Перейти к седьмой странице с товарами
+    3. Найти товар "Marni Red & Black Suit"
+  expected-result: |
+    На фотографии изображен красно-черный костюм
+  actual-result: |
+    На фотографии изображено красное платье
+
+- summary: |
+    Описание товара "Lemon" содержит опечатку
+  environment: |
+    Google Chrome Версия: 137.0.7151.104 (Официальная сборка) (64 бит)
+  steps-to-reproduce: |
+    1. Открыть страницу магазина https://hexlet-products-store.vercel.app/
+    2. Перейти ко второй странице с товарами
+    3. Найти товар "Lemon" и прочитать его описание
+  expected-result: |
+    Описание начинается "Testy and tangy lemons, ..."
+  actual-result: |
+    Описание начинается "Zesty and tangy lemons,..." Опечатка в первом слове.
+
+- summary: |
     Сообщение об успешном заказе невозможно закрыть с помощью "Х"
   environment: |
     Google Chrome Версия: 137.0.7151.104 (Официальная сборка) (64 бит)
