@@ -223,3 +223,25 @@
 - summary: |
     Успешная работа ссылки на категорию в карточке товара
   status: fail
+
+# Адаптивность
+- summary: |
+    Успешное отображение приложения на iPhone 12 Pro
+  status: fail 
+
+- summary: |
+    Успешное отображение приложения на Samsung Galaxy A51/71
+  status: fail
+    
+# Кроссбраузерность
+- summary: |
+    Успешное отображение приложения в браузере Chrome
+  status: pass
+
+- summary: |
+    Успешное отображение приложения в браузере FireFox
+  status: pass
+
+- summary: |
+    Успешное отображение приложения в браузере Safari
+  status: pass
