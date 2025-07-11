@@ -142,7 +142,7 @@
     Нет ограничения на ввод стоимости
     
 - summary: |
-    Ввод отрицательного числового значения в поле выбора "Цена до" на первой странице с товарами
+    Ввод отрицательного числового значения в поле выбора "Цена до"
   environment: |
     Google Chrome Версия: 137.0.7151.104 (Официальная сборка) (64 бит)
   steps-to-reproduce: |
@@ -211,7 +211,7 @@
 - summary: |
     Некорректное отображение приложения на мобильных устройствах
   environment: |
-    iPhone SE 375x667 / Samsung Galaxy S8+ 
+    iPhone 12 Pro / Samsung Galaxy A51/71
   steps-to-reproduce: |
     1. Открыть страницу магазина https://hexlet-products-store.vercel.app/ 
   expected-result: |
